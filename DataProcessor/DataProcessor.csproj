@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,6 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DBO\DBO.sqlproj" />
+    <ProjectReference Include="..\itvitea_Restaurant\itvitea_Restaurant.csproj" />
     <ProjectReference Include="..\QSS\QSS.csproj" />
   </ItemGroup>
 
